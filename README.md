@@ -26,7 +26,7 @@ Currently not accepting contribution to this repo.
 (![Team-Profile-Generator](./assets/images/TeamBuilderProgressSC3.png))
 
 ## Video
-
+https://drive.google.com/file/d/1agw8AsTcIzNQaAcTfoowD_Cg5OsaVNV-/view
 
 ## License
 Please see https://mit-license.org/ to get info about this license
