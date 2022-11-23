@@ -1,15 +1,14 @@
 // Function to generate html card for Manager
 const generateManager = function (manager) {
     return `
-    <div class = "col-4 mt-4">
-        <div class = "card h-100">
+        <div class = "card h-20">
             <div class = "card-header">
                 <h2>${manager.name}</h2>
                 <h3>Manager</h3><i class = "material-icons">content_paste</i>
             </div>
             
             <div class = "card-body">
-                <p class = "id">ID: ${manger.id}</p>
+                <p class = "id">ID: ${manager.id}</p>
                 <p class = "email">Email: <a href = "mailto:${manager.email}">${manager.email}</a></p>
                 <p class = "office">Office Number: ${manager.officeNumber}</p>
             </div>
@@ -20,11 +19,10 @@ const generateManager = function (manager) {
 // Function to generate html card for Engineer
 const generateEngineer = function (engineer) {
     return `
-    <div class = "col-4 mt-4">
-        <div class = "card h-100">
+        <div class = "card h-20">
             <div class = "card-header">
                 <h2>${engineer.name}</h2>
-                <h3>Manager</h3><i class = "material-icons">laptop_mac</i>
+                <h3>Engineer</h3><i class = "material-icons">laptop_mac</i>
             </div>
             
             <div class = "card-body">
@@ -39,11 +37,10 @@ const generateEngineer = function (engineer) {
 // Function to generate html for Intern
 const generateIntern = function (intern) {
     return `
-    <div class = "col-4 mt-4">
-        <div class = "card h-100">
+        <div class = "card h-20">
             <div class = "card-header">
                 <h2>${intern.name}</h2>
-                <h3>Manager</h3><i class = "material-icons">content_paste</i>
+                <h3>Intern</h3><i class = "material-icons">content_paste</i>
             </div>
             
             <div class = "card-body">
